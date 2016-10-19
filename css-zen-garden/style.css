@@ -60,30 +60,47 @@ table {
 
 
 /* basic elements */
-
+body * {
+	font-family: 'Helvetica', sans-serif;
+	color: #333538;
+}
 
 
 /* specific divs */
-.page-wrapper { 
-	}
+.page-wrapper {
+
+}
 
 .intro { 
 	}
 
-header h1 { 
-	}
-header h2 { 
-	}
+header h1 {
+	font-size: 7em;
+}
+header h2 {
+	font-size: 2.4em;
+	font-style: italic;
+}
 header {
+	margin: 0 0 2.4em 0;
+	padding: 1.2em 0 0 1.2em;
 }
 
 .summary {
-	}
+	border-top: .15em solid #ccc;
+	border-bottom: .15em solid #ccc;
+	padding: 2.4em 1.2em;
+	margin: 0 0 2.4em 0;
+}
 .summary p {
 	}
 
 .preamble {
 	}
+.preamble h3 {
+	font-size: 2em;
+}
+
 .supporting {	
 	}
 
